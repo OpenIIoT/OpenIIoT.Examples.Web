@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
+import Crypto from './crypto.js';
 
 class App extends Component {
   render() {
@@ -13,6 +15,11 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Crypto symbol="BTC"/>
+        <br/>
+        <Crypto symbol="ETH"/>
+        <br/>
+        <Crypto symbol="LTC"/>
       </div>
     );
   }
