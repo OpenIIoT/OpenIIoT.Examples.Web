@@ -19,3 +19,5 @@
 /reactjs/yarn-debug.log*
 /reactjs/yarn-error.log*
 # /reactjs
+
+*.log
